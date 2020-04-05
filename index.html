@@ -6,24 +6,287 @@
     <link rel='stylesheet' type='text/css' href='./styles/css/bootstrap-grid.css'/>
     <link rel='stylesheet' type='text/css' href='./styles/css/bootstrap-grid.min.css'/>
     <link rel='stylesheet' type='text/css' href='./styles/css/font-awesome.css'/>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@500;700&display=swap" rel="stylesheet">
   </head>
   <body>
     <div class='container-fluid'>
       <div class='row'>
-        <div class='col-9' style='padding-left:40px;border-right:3px solid black;'>
+        <div class='col-9' style='padding-left:40px;'>
           <h1 class='text-center display-3' style="font-family: 'Raleway', sans-serif; font-weight:700;">
             Vinod Dalavai
           </h1>
           <h4 class='text-center text-info' style='padding-left:20px; font-weight:500;'>
             Backend Web Developer
           </h4>
+          <div style="font-family: 'Raleway', sans-serif; font-weight:300;">
+            <h3>
+              Experience
+            </h3>
+
+            <div class="accordion" id="workExOne" style='margin-top:20px;'>
+              <div class="card">
+                <div class="card-header" id="headingOne">
+                  <h4 class="mb-0">
+                    <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                      Software Engineer
+                    </button>
+                  </h4>
+                </div>
+                <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#workExOne">
+                  <div class="card-body">
+                    <h5>
+                      Scripbox.com Private Limited
+                      <span class='text-muted'>
+                        (January 2018 - Present) | Bangalore
+                      </span>
+                    </h5>
+                    <ul>
+                      <li>
+                        Developed and maintained web application features Analyzed real time technical issues faced by
+                        customers by monitoring logs over Graylog
+                      </li>
+                      <li>
+                        Kept check on infrastructure performance by monitoring over Grafana
+                      </li>
+                      <li>
+                        Wrote MYSQL queries for designing dashboards that would be helpful for other teams to track
+                        investment statistics
+                      </li>
+                      <li>
+                        Collaborated effectively with third party vendors to consume their API endpoints and integrate
+                        it
+                      </li>
+                      <li>
+                        Single point of contact for investment module
+                      </li>
+                      <li>
+                        Wrote service which acted as wrapper for consuming any library that can provide communication
+                        interface such as sending email or sms to customers. This saved time for all developers when
+                        migrating from one provider to another as it required code changes to be made in just one file
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="accordion" id="workExTwo" style='margin-top:30px;'>
+              <div class="card">
+                <div class="card-header" id="headingTwo">
+                  <h4 class="mb-0">
+                    <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
+                      Lead Quality Analyst
+                    </button>
+                  </h4>
+                </div>
+                <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#workExTwo">
+                  <div class="card-body">
+                    <h5>
+                      Scripbox.com Private Limited
+                      <span class='text-muted'>
+                        (December 2016 - December 2017) | Bangalore
+                      </span>
+                    </h5>
+                    <ul>
+                      <li>
+                        Automation of web-based application using Selenium Web Driver, RSpec and Capybara
+                      </li>
+                      <li>
+                        Performed regression and ad Hoc testing of web-based application. In depth understanding of
+                        investment in mutual funds and testing functionality of application manually
+                      </li>
+                      <li>
+                        Integrated automation test suite with GitLab and adding it to CI so that no feature could be
+                        shipped to production without passing Automation stage
+                      </li>
+                      <li>
+                        Developed and maintained Quality Assurance procedure documentation
+                      </li>
+                      <li>
+                        Provided quality assurance from every stage of product development process, from signing up to
+                        successfully investing
+                      </li>
+                      <li>
+                        Recorded and organized test data for report generation and analysis
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="accordion" id="workExThree" style='margin-top:30px;'>
+              <div class="card">
+                <div class="card-header" id="headingThree">
+                  <h4 class="mb-0">
+                    <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="true" aria-controls="collapseThree">
+                      Performance Test Analyst
+                    </button>
+                  </h4>
+                </div>
+                <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#workExThree">
+                  <div class="card-body">
+                    <h5>
+                      Tata Consultancy Services Ltd.
+                      <span class='text-muted'>
+                        (November 2015 - December 2016) | Norwich, Bangalore
+                      </span>
+                    </h5>
+                    <ul>
+                      <li>
+                        Gathered and defined business and functional requirements for each program
+                      </li>
+                      <li>
+                        Developed and deployed test load scripts with HP LoadRunner
+                      </li>
+                      <li>
+                        Used monitoring tools like AppDynamics and Sitescope tools on frequent basis
+                      </li>
+                      <li>
+                        Conducted load, stress and endurance tests using HP LoadRunner to simulate realistic user
+                        activities
+                      </li>
+                      <li>
+                        Coordinated and monitored work of co-located and remote teams
+                      </li>
+                      <li>
+                        Provided improvement suggestions to clients
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="accordion" id="workExFour" style='margin-top:30px;'>
+              <div class="card">
+                <div class="card-header" id="headingFour">
+                  <h4 class="mb-0">
+                    <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="true" aria-controls="collapseFour">
+                      Manual Test Analyst
+                    </button>
+                  </h4>
+                </div>
+                <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#workExFour">
+                  <div class="card-body">
+                    <h5>
+                      Tata Consultancy Services Ltd.
+                      <span class='text-muted'>
+                        (January 2015 - November 2015) | London, Norwich
+                      </span>
+                    </h5>
+                    <ul>
+                      <li>
+                        Worked closely with clients in Distributed Agile Environment spread across six locations and
+                        two continents
+                      </li>
+                      <li>
+                        Extensively worked on Behavior Driven Development
+                      </li>
+                      <li>
+                        Created feature files and conducted review of feature files before implementation
+                      </li>
+                      <li>
+                        Actively participated in Story Development Sessions to define scope of story and consent on
+                        acceptance criteria
+                      </li>
+                      <li>
+                        Took part in Sprint Planning Sessions to define scope of sprint
+                      </li>
+                      <li>
+                        Defined manual test scenarios based on acceptance criteria
+                      </li>
+                      <li>
+                        Used JIRA as test management tool
+                      </li>
+                      <li>
+                        Actively co-ordinate with cross functional teams to ensure timely delivery of test results
+                        within timeline
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="accordion" id="workExFive" style='margin-top:30px;'>
+              <div class="card">
+                <div class="card-header" id="headingFive">
+                  <h4 class="mb-0">
+                    <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseFive" aria-expanded="true" aria-controls="collapseFive">
+                      Release Co-ordinator
+                    </button>
+                  </h4>
+                </div>
+                <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#workExFive">
+                  <div class="card-body">
+                    <h5>
+                      Tata Consultancy Services Ltd.
+                      <span class='text-muted'>
+                        (January 2013 - December 2014) | Mumbai
+                      </span>
+                    </h5>
+                    <ul>
+                      <li>
+                        Identified stakeholders and organized meetings to transition applications to test team for
+                        Microsoft Patch Testing
+                      </li>
+                      <li>
+                        Facilitated in transition of applications from stakeholders to testing team
+                      </li>
+                      <li>
+                        Co-ordinate with vendors during MS Patch Release to ensure all impacted applications have been
+                        thoroughly tested Collected and analyzed all test results submitted by all vendors and provided
+                        sign off for Microsoft to patch servers
+                      </li>
+                      <li>
+                        Performed detailed assessments of risks to determine constraints and develop mitigation
+                        strategies
+                      </li>
+                      <li>
+                        Investigated and corrected or escalated project problems
+                      </li>
+                      <li>
+                        Closely collaborated with project members to identify and quickly address problems
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+          <div style="font-family: 'Raleway', sans-serif; font-weight:300; padding-top:40px;">
+            <h3>
+              Education
+            </h3>
+            <ul>
+              <li>
+                <h5>Siddaganga Institute of Technology, Tumkur
+                  <small class='text-muted'>Bachelor of Engineering (Chemical)</small>
+                </h5>
+              </li>
+              <li>
+                <h5>Loyola School
+                  <small class='text-muted'> XII - ISC</small>
+                </h5>
+              </li>
+              <li>
+                <h5>Loyola School
+                  <small class='text-muted'> X - ICSE</small>
+                </h5>
+              </li>
+            </ul>
+          </div>
         </div>
         <div class='float-right col-3 text-center'
           style='font-family: "Raleway", sans-serif; font-weight:300;padding-left:0px;'>
           <img src='https://vinodportfolio.s3.ap-south-1.amazonaws.com/IMG_1112.jpeg'
             class='img-fluid'
-            style='display:block;margin-left:auto;margin-right:auto;height:30%;padding-bottom:10px;'
+            style='margin-left:auto;margin-right:auto;height:25%;padding-bottom:10px;'
             alt='image'>
           <div class='text-justify' style='padding-top:10px;padding-left:25px;padding-right:20px;border-top:3px solid black;border-bottom:3px solid black;'>
             <h4 class='text-center'>About Me</h4>
@@ -54,7 +317,65 @@
               </li>
             </ul>
           </div>
-          <div style='padding-top:10px;padding-bottom:15px;border-bottom:3px solid black;'>
+          <div style='padding-top:10px;border-bottom:3px solid black;'>
+            <h4 class='text-center'>Technical Skills</h4>
+              <ul class='text-left'>
+                <li>
+                  Ruby on Rails
+                </li>
+                <li>
+                  MySQL
+                </li>
+                <li>
+                  Redis
+                </li>
+                <li>
+                  RSpec
+                </li>
+                <li>
+                  Capybara
+                </li>
+                <li>
+                  GIT
+                </li>
+                <li>
+                  Unix
+                </li>
+                <li>
+                  VIM
+                </li>
+                <li>
+                  HTML
+                </li>
+                <li>
+                  CSS
+                </li>
+                <li>
+                  JavaScript
+                </li>
+              </ul>
+          </div>
+          <div style='padding-top:10px;border-bottom:3px solid black;'>
+            <h4 class='text-center'>Hobbies</h4>
+            <ul class='text-left'>
+              <li>
+                Listening to Music (Hard Rock, Progressive Rock, Indie, Alternative Rock, Metal)
+              </li>
+              <li>
+                Playing Squash, Badminton, Pool and Snooker
+              </li>
+              <li>
+                Swimming
+              </li>
+              <li>
+                Cooking
+              </li>
+              <li>
+                Reading Non-Fiction Books
+              </li>
+            </ul>
+          </div>
+          <div style='padding-top:10px;padding-bottom:15px;'>
             <h4 class='text-center' style='padding-bottom:5px;'>
               Contact Me
             </h4>
