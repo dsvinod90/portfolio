@@ -9,346 +9,294 @@
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/968e00f927.js" crossorigin="anonymous"></script>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@500;700&display=swap" rel="stylesheet">
     <meta name="keywords" content="Vinod, Dalavai, Varun, ruby, rails">
     <meta name="description" content="Vinod Dalavai's portfolio">
     <meta name="author" content="Vinod Dalavai">
-    <script>
-      function calculate_time_diff(startDate, endDate) {
-        var yearsDiff = endDate.getFullYear() - startDate.getFullYear();
-        var monthsDiff = (endDate.getMonth() - startDate.getMonth());
-        return (yearsDiff + "y " + monthsDiff + "m")
+    <style>
+      body {
+        background-image: url('https://vinodportfolio.s3.ap-south-1.amazonaws.com/photo-1552308995-2baac1ad5490.jpeg');
+        background-repeat: no-repeat;
+        background-attachment: fixed; 
+        background-size: cover;
+        opacity: 0.9;
       }
-    </script>
+      div.transbox {
+        background-color: #E5E7E9;
+        opacity: 1.0;
+      }
+      </style>
   </head>
-  <body style='background-color: #E5E7E9;'>
-    <div class='container-fluid'>
+  <body style="font-family: Raleway;">
+    <div class='container-fluid transbox'>
       <div class='row'>
         <div class='col-9' style='padding-left:40px;'>
           <h1 class='text-center display-3' style="font-family: 'Raleway', sans-serif; font-weight:700;">
-            Vinod Dalavai
+            Vinod Sridhar Dalavai
           </h1>
-          <h4 class='text-center text-info' style='padding-left:20px; font-weight:500;'>
-            Backend Web Developer (RoR)
+          <h4 class='text-center' style='padding-left:20px; font-weight:500;'>
+            <span style="color:#827839">Web Developer</span>&nbsp;&nbsp;<span style="color: #7D1B7E">MetalHead</span>&nbsp;&nbsp;<span style="color:#9F000F">Tech Enthusiast</span>
           </h4>
-          <div style="font-family: 'Raleway', sans-serif; font-weight:300;">
-            <h3>
-              Experience
-              <small class='text-muted' style='margin-left:10px;'>
-                <script>
-                  document.write(calculate_time_diff(new Date('2013','00'), new Date()))
-                </script>
-              </small>
-            </h3>
-
-            <div class="accordion" id="workExOne" style='margin-top:20px;'>
-              <div class="card">
-                <div class="card-header" id="headingOne">
-                  <h4 class="mb-0">
-                    <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                      Software Engineer
-                      <span class="badge badge-pill badge-primary" style='margin-left:15px;'>
-                        <script>
-                          document.write(calculate_time_diff(new Date('2018','00'), new Date()))
-                        </script>
-                      </span>
-                    </button>
-                  </h4>
-                </div>
-                <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#workExOne">
-                  <div class="card-body">
-                    <h5>
-                      Scripbox.com Private Limited
-                      <span class='text-muted'>
-                        (January 2018 - Present) | Bangalore
-                      </span>
-                    </h5>
-                    <ul>
-                      <li>
-                        Developed and maintained web application features Analyzed real time technical issues faced by
-                        customers by monitoring logs over Graylog
-                      </li>
-                      <li>
-                        Kept check on infrastructure performance by monitoring over Grafana
-                      </li>
-                      <li>
-                        Wrote MYSQL queries for designing dashboards that would be helpful for other teams to track
-                        investment statistics
-                      </li>
-                      <li>
-                        Collaborated effectively with third party vendors to consume their API endpoints and integrate
-                        it
-                      </li>
-                      <li>
-                        Single point of contact for investment module
-                      </li>
-                      <li>
-                        Wrote service which acted as wrapper for consuming any library that can provide communication
-                        interface such as sending email or sms to customers. This saved time for all developers when
-                        migrating from one provider to another as it required code changes to be made in just one file
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
+          <div class="text-center" style="padding-top: 20px; padding-bottom: 20px; padding-left: 25px; padding-right: 25px;justify-content: center;">
+            <div>
+              <a href='https://twitter.com/_lunatic_soul_' target='_blank' style='padding-right:40px;color:#006097;' onmouseover="this.style.color='black'" onmouseout="this.style.color='#006097'">
+                <i class="fab fa-twitter fa-2x" aria-hidden="true"></i>
+              </a>
+              <a href='https://github.com/dsvinod90' target='_blank' style="padding-right:40px;color:#495057" onmouseover="this.style.color='black'" onmouseout="this.style.color='#495057'">
+                <i class="fab fa-github fa-2x" aria-hidden="true"></i>
+              </a>
+              <a href='https://www.linkedin.com/in/vinod-dalavai-00933459' target='_blank' style="padding-right:40px;color:#1DA1F2" onmouseover="this.style.color='black'" onmouseout="this.style.color='#1DA1F2'">
+                <i class="fab fa-linkedin-in fa-2x" aria-hidden="true"></i>
+              </a>
+              <a href='https://stackoverflow.com/users/5729566/vinod-dalavai' target='_blank' style="padding-right:40px;color:#f48024" onmouseover="this.style.color='black'" onmouseout="this.style.color='#f48024'">
+                <i class="fab fa-stack-overflow fa-2x" aria-hidden="true"></i>
+              </a>
+              <a href='mailto:dsvinod.1990@protonmail.com?Subject=Hey%20Vinod' style='padding-right:40px;color:#9397cd' onmouseover="this.style.color='black'" onmouseout="this.style.color='#9397cd'">
+                <i id="mail" class="fas fa-envelope fa-2x" aria-hidden="true"></i>
+              </a>
+              <a href="https://bit.ly/3twmgUD" id="twitchIcon" target="_blank" style="padding-right:40px;color:#772ce8;" onmouseover="this.style.color='black'" onmouseout="this.style.color='#772ce8'">
+                <i class="fab fa-twitch fa-2x" aria-hidden="true"></i>
+              </a>
+              <a href="https://bit.ly/3gmjRbl" target="_blank" style="padding-right:0px;color:#7289da;" onmouseover="this.style.color='black'" onmouseout="this.style.color='#7289da'">
+                <i class="fab fa-discord fa-2x"></i>
+              </a>
             </div>
-
-            <div class="accordion" id="workExTwo" style='margin-top:30px;'>
-              <div class="card">
-                <div class="card-header" id="headingTwo">
-                  <h4 class="mb-0">
-                    <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
-                      Lead Quality Analyst
-                      <span class="badge badge-pill badge-primary" style='margin-left:15px;'>
-                        <script>
-                          document.write(calculate_time_diff(new Date('2016','11'), new Date('2017','11')))
-                        </script>
-                      </span>
-                    </button>
-                  </h4>
-                </div>
-                <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#workExTwo">
-                  <div class="card-body">
-                    <h5>
-                      Scripbox.com Private Limited
-                      <span class='text-muted'>
-                        (December 2016 - December 2017) | Bangalore
-                      </span>
-                    </h5>
-                    <ul>
-                      <li>
-                        Automation of web-based application using Selenium Web Driver, RSpec and Capybara
-                      </li>
-                      <li>
-                        Performed regression and ad Hoc testing of web-based application. In depth understanding of
-                        investment in mutual funds and testing functionality of application manually
-                      </li>
-                      <li>
-                        Integrated automation test suite with GitLab and adding it to CI so that no feature could be
-                        shipped to production without passing Automation stage
-                      </li>
-                      <li>
-                        Developed and maintained Quality Assurance procedure documentation
-                      </li>
-                      <li>
-                        Provided quality assurance from every stage of product development process, from signing up to
-                        successfully investing
-                      </li>
-                      <li>
-                        Recorded and organized test data for report generation and analysis
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div class="accordion" id="workExThree" style='margin-top:30px;'>
-              <div class="card">
-                <div class="card-header" id="headingThree">
-                  <h4 class="mb-0">
-                    <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="true" aria-controls="collapseThree">
-                      Performance Test Analyst
-                      <span class="badge badge-pill badge-primary" style='margin-left:15px;'>
-                        <script>
-                          document.write(calculate_time_diff(new Date('2015','10'), new Date('2016','11')))
-                        </script>
-                      </span>
-                    </button>
-                  </h4>
-                </div>
-                <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#workExThree">
-                  <div class="card-body">
-                    <h5>
-                      Tata Consultancy Services Ltd.
-                      <span class='text-muted'>
-                        (November 2015 - December 2016) | Norwich, Bangalore
-                      </span>
-                    </h5>
-                    <ul>
-                      <li>
-                        Gathered and defined business and functional requirements for each program
-                      </li>
-                      <li>
-                        Developed and deployed test load scripts with HP LoadRunner
-                      </li>
-                      <li>
-                        Used monitoring tools like AppDynamics and Sitescope tools on frequent basis
-                      </li>
-                      <li>
-                        Conducted load, stress and endurance tests using HP LoadRunner to simulate realistic user
-                        activities
-                      </li>
-                      <li>
-                        Coordinated and monitored work of co-located and remote teams
-                      </li>
-                      <li>
-                        Provided improvement suggestions to clients
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div class="accordion" id="workExFour" style='margin-top:30px;'>
-              <div class="card">
-                <div class="card-header" id="headingFour">
-                  <h4 class="mb-0">
-                    <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="true" aria-controls="collapseFour">
-                      Manual Test Analyst
-                      <span class="badge badge-pill badge-primary" style='margin-left:15px;'>
-                        <script>
-                          document.write(calculate_time_diff(new Date('2015','00'), new Date('2015','10')))
-                        </script>
-                      </span>
-                    </button>
-                  </h4>
-                </div>
-                <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#workExFour">
-                  <div class="card-body">
-                    <h5>
-                      Tata Consultancy Services Ltd.
-                      <span class='text-muted'>
-                        (January 2015 - November 2015) | London, Norwich
-                      </span>
-                    </h5>
-                    <ul>
-                      <li>
-                        Worked closely with clients in Distributed Agile Environment spread across six locations and
-                        two continents
-                      </li>
-                      <li>
-                        Extensively worked on Behavior Driven Development
-                      </li>
-                      <li>
-                        Created feature files and conducted review of feature files before implementation
-                      </li>
-                      <li>
-                        Actively participated in Story Development Sessions to define scope of story and consent on
-                        acceptance criteria
-                      </li>
-                      <li>
-                        Took part in Sprint Planning Sessions to define scope of sprint
-                      </li>
-                      <li>
-                        Defined manual test scenarios based on acceptance criteria
-                      </li>
-                      <li>
-                        Used JIRA as test management tool
-                      </li>
-                      <li>
-                        Actively co-ordinate with cross functional teams to ensure timely delivery of test results
-                        within timeline
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div class="accordion" id="workExFive" style='margin-top:30px;'>
-              <div class="card">
-                <div class="card-header" id="headingFive">
-                  <h4 class="mb-0">
-                    <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseFive" aria-expanded="true" aria-controls="collapseFive">
-                      Release Co-ordinator
-                      <span class="badge badge-pill badge-primary" style='margin-left:15px;'>
-                        <script>
-                          document.write(calculate_time_diff(new Date('2013','00'), new Date('2014','11')))
-                        </script>
-                      </span>
-                    </button>
-                  </h4>
-                </div>
-                <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#workExFive">
-                  <div class="card-body">
-                    <h5>
-                      Tata Consultancy Services Ltd.
-                      <span class='text-muted'>
-                        (January 2013 - December 2014) | Mumbai
-                      </span>
-                    </h5>
-                    <ul>
-                      <li>
-                        Identified stakeholders and organized meetings to transition applications to test team for
-                        Microsoft Patch Testing
-                      </li>
-                      <li>
-                        Facilitated in transition of applications from stakeholders to testing team
-                      </li>
-                      <li>
-                        Co-ordinate with vendors during MS Patch Release to ensure all impacted applications have been
-                        thoroughly tested Collected and analyzed all test results submitted by all vendors and provided
-                        sign off for Microsoft to patch servers
-                      </li>
-                      <li>
-                        Performed detailed assessments of risks to determine constraints and develop mitigation
-                        strategies
-                      </li>
-                      <li>
-                        Investigated and corrected or escalated project problems
-                      </li>
-                      <li>
-                        Closely collaborated with project members to identify and quickly address problems
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-            </div>
-
           </div>
-          <div style="font-family: 'Raleway', sans-serif; font-weight:300; padding-top:40px;">
-            <h3>
-              Education
-            </h3>
-            <ul>
-              <li>
-                <h5>Siddaganga Institute of Technology, Tumkur
-                  <small class='text-muted'>Bachelor of Engineering (Chemical)</small>
+          <div class="card-deck">
+            <div class="card">
+              <div class="card-body">
+                <h4>SOFTWARE ENGINEER</h4>
+                <h5 class="card-title">
+                  <i class="fas fa-building" style="color:darkgrey"></i>
+                  <small><i>Scripbox Advisors Private Limited</i></small>
                 </h5>
-              </li>
-              <li>
-                <h5>Loyola School
-                  <small class='text-muted'> XII - ISC</small>
+                <h5>
+                  <i class="fas fa-map-marker-alt" style="color:darkgrey"></i>
+                  <small><i>Bengaluru, India</i></small>
                 </h5>
-              </li>
-              <li>
-                <h5>Loyola School
-                  <small class='text-muted'> X - ICSE</small>
+                <h5 class="card-title">
+                  <i class="fas fa-calendar" style="color:darkgrey"></i>
+                  <small><i>January 2018 - Present</i></small>
                 </h5>
-              </li>
-            </ul>
+                <p class="card-text">
+                  <ul>
+                    <li>
+                      Developed and maintained web application features Analyzed real time technical issues faced by
+                      customers by monitoring logs over Graylog
+                    </li>
+                    <li>
+                      Kept check on infrastructure performance by monitoring over Grafana
+                    </li>
+                    <li>
+                      Wrote MYSQL queries for designing dashboards that would be helpful for other teams to track
+                      investment statistics
+                    </li>
+                    <li>
+                      Collaborated effectively with third party vendors to consume their API endpoints and integrate
+                      it
+                    </li>
+                    <li>
+                      Single point of contact for investment module
+                    </li>
+                    <li>
+                      Wrote service which acted as wrapper for consuming any library that can provide communication
+                      interface such as sending email or sms to customers. This saved time for all developers when
+                      migrating from one provider to another as it required code changes to be made in just one file
+                    </li>
+                  </ul>
+                </p>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-body">
+                <h4>LEAD QUALITY ANALYST</h4>
+                <h5 class="card-title">
+                  <i class="fas fa-building" style="color:darkgrey"></i>
+                  <small><i>Scripbox Advisors Private Limited</i></small>
+                </h5>
+                <h5>
+                  <i class="fas fa-map-marker-alt" style="color:darkgrey"></i>
+                  <small><i>Bengaluru, India</i></small>
+                </h5>
+                <h5 class="card-title">
+                  <i class="fas fa-calendar" style="color:darkgrey"></i>
+                  <small><i>January 2016 - December 2017</i></small>
+                </h5>
+                <p class="card-text">
+                  <ul>
+                    <li>
+                      Automation of web-based application using Selenium Web Driver, RSpec and Capybara
+                    </li>
+                    <li>
+                      Performed regression and ad Hoc testing of web-based application. In depth understanding of
+                      investment in mutual funds and testing functionality of application manually
+                    </li>
+                    <li>
+                      Integrated automation test suite with GitLab and adding it to CI so that no feature could be
+                      shipped to production without passing Automation stage
+                    </li>
+                    <li>
+                      Developed and maintained Quality Assurance procedure documentation
+                    </li>
+                    <li>
+                      Provided quality assurance from every stage of product development process, from signing up to
+                      successfully investing
+                    </li>
+                    <li>
+                      Recorded and organized test data for report generation and analysis
+                    </li>
+                  </ul>
+                </p>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-body">
+                <h4>PERFORMANCE TEST ANALYST</h4>
+                <h5 class="card-title">
+                  <i class="fas fa-building" style="color:darkgrey"></i>
+                  <small><i>Tata Consultancy Services Limited</i></small>
+                </h5>
+                <h5>
+                  <i class="fas fa-map-marker-alt" style="color:darkgrey"></i>
+                  <small><i>Bengaluru, India</i></small>
+                </h5>
+                <h5 class="card-title">
+                  <i class="fas fa-calendar" style="color:darkgrey"></i>
+                  <small><i>November 2015 - December 2016</i></small>
+                </h5>
+                <p class="card-text">
+                  <ul>
+                    <li>
+                      Gathered and defined business and functional requirements for each program
+                    </li>
+                    <li>
+                      Developed and deployed test load scripts with HP LoadRunner
+                    </li>
+                    <li>
+                      Used monitoring tools like AppDynamics and Sitescope tools on frequent basis
+                    </li>
+                    <li>
+                      Conducted load, stress and endurance tests using HP LoadRunner to simulate realistic user
+                      activities
+                    </li>
+                    <li>
+                      Coordinated and monitored work of co-located and remote teams
+                    </li>
+                    <li>
+                      Provided improvement suggestions to clients
+                    </li>
+                  </ul>
+                </p>
+              </div>
+            </div>
+          </div>
+          <br>
+          <div class="card-deck">
+            <div class="card">
+              <div class="card-body">
+                <h4>MANUAL TEST ANALYST</h4>
+                <h5 class="card-title">
+                  <i class="fas fa-building" style="color:darkgrey"></i>
+                  <small><i>Tata Consultancy Services</i></small>
+                </h5>
+                <h5>
+                  <i class="fas fa-map-marker-alt" style="color:darkgrey"></i>
+                  <small><i>London/Norwich, United Kingdom</i></small>
+                </h5>
+                <h5 class="card-title">
+                  <i class="fas fa-calendar" style="color:darkgrey"></i>
+                  <small><i>January 2015 - November 2015</i></small>
+                </h5>
+                <p class="card-text">
+                  <ul>
+                    <li>
+                      Worked closely with clients in Distributed Agile Environment spread across six locations and
+                      two continents
+                    </li>
+                    <li>
+                      Extensively worked on Behavior Driven Development
+                    </li>
+                    <li>
+                      Created feature files and conducted review of feature files before implementation
+                    </li>
+                    <li>
+                      Actively participated in Story Development Sessions to define scope of story and consent on
+                      acceptance criteria
+                    </li>
+                    <li>
+                      Took part in Sprint Planning Sessions to define scope of sprint
+                    </li>
+                    <li>
+                      Defined manual test scenarios based on acceptance criteria
+                    </li>
+                    <li>
+                      Used JIRA as test management tool
+                    </li>
+                    <li>
+                      Actively co-ordinate with cross functional teams to ensure timely delivery of test results
+                      within timeline
+                    </li>
+                  </ul>
+                </p>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-body">
+                <h4>RELEASE CO-ORDINATOR</h4>
+                <h5 class="card-title">
+                  <i class="fas fa-building" style="color:darkgrey"></i>
+                  <small><i>Tata Consultancy Services</i></small>
+                </h5>
+                <h5>
+                  <i class="fas fa-map-marker-alt" style="color:darkgrey"></i>
+                  <small><i>Mumbai, India</i></small>
+                </h5>
+                <h5 class="card-title">
+                  <i class="fas fa-calendar" style="color:darkgrey"></i>
+                  <small><i>January 2013 - November 2014</i></small>
+                </h5>
+                <p class="card-text">
+                  <ul>
+                    <li>
+                      Identified stakeholders and organized meetings to transition applications to test team for
+                      Microsoft Patch Testing
+                    </li>
+                    <li>
+                      Facilitated in transition of applications from stakeholders to testing team
+                    </li>
+                    <li>
+                      Co-ordinate with vendors during MS Patch Release to ensure all impacted applications have been
+                      thoroughly tested Collected and analyzed all test results submitted by all vendors and provided
+                      sign off for Microsoft to patch servers
+                    </li>
+                    <li>
+                      Performed detailed assessments of risks to determine constraints and develop mitigation
+                      strategies
+                    </li>
+                    <li>
+                      Investigated and corrected or escalated project problems
+                    </li>
+                    <li>
+                      Closely collaborated with project members to identify and quickly address problems
+                    </li>
+                  </ul> 
+                </p>
+              </div>
+            </div>
           </div>
         </div>
-        <div class='float-right col-3 text-center'
-          style='font-family: "Raleway", sans-serif; font-weight:300;padding-left:0px;'>
-          <div style='padding-top:10px;padding-bottom:15px;'>
-            <a href='https://twitter.com/_lunatic_soul_' target='_blank' style='padding-right:15px;'>
-              <i class="fa fa-twitter fa-2x" aria-hidden="true"></i>
-            </a>
-            <a href='https://github.com/dsvinod90' target='_blank' style='padding-right:15px;'>
-              <i class="fa fa-github-alt fa-2x" aria-hidden="true"></i>
-            </a>
-            <a href='https://www.linkedin.com/in/vinod-dalavai-00933459' target='_blank' style='padding-right:15px;'>
-              <i class="fa fa-linkedin-square fa-2x" aria-hidden="true"></i>
-            </a>
-            <a href='https://stackoverflow.com/users/5729566/vinod-dalavai' target='_blank' style='padding-right:15px;'>
-              <i class="fa fa-stack-overflow fa-2x" aria-hidden="true"></i>
-            </a>
-            <a href='mailto:dsvinod.1990@icloud.com?Subject=Hey%20Vinod'>
-              <i id='mail' class='fa fa-envelope fa-2x'></i>
-            </a>
-          </div>
-          <img src='https://vinodportfolio.s3.ap-south-1.amazonaws.com/IMG_1112.jpeg'
+        <div class='float-right col-3 text-center' style='font-family: "Raleway", sans-serif; font-weight:300'>
+          <img src='https://vinodportfolio.s3.ap-south-1.amazonaws.com/0E42446C-0E44-4097-A6BD-C179FF56DD0B_1_201_a.jpeg'
             class='img-fluid'
-            style='margin-left:auto;margin-right:auto;padding-bottom:10px;border-radius: 30%;'
+            style='margin-left:auto;margin-right:auto;padding-bottom:10px;padding-top:20px;border-radius: 20%;width: 300px;height: 300px; object-fit: cover;'
             alt='image'>
           <div class='text-center'>
-            <i class="fa fa-mobile" aria-hidden="true">+91-7259683580</i>
             <p>
-              <a href="https://www.hypocryte.monster" target="blank">My blog page</a>
+              <i class="fas fa-mobile">&nbsp;+91-7259683580</i>
+            </p>
+            <p>
+              Please visit my <a href="https://www.hypocryte.monster" target="blank">blog page</a> and do subscribe to receive weekly newsletters.
             </p>
           </div>
           <div class='text-justify' style='padding-top:10px;padding-left:25px;padding-right:20px;border-top:3px solid black;border-bottom:3px solid black;'>
@@ -358,85 +306,54 @@
             </p>
           </div>
           <div style='padding-top:10px;border-bottom:3px solid black;'>
-            <h4 class='text-center'>Accomplishments</h4>
-            <ul class='text-left'>
-              <li>
-                European Software Testing Excellence Award
-                <small class='text-muted'>
-                  TCS-Aviva
-                </small>
-              </li>
-              <li>
-                On the Sport Award
-                <small class='text-muted'>
-                  TCS
-                </small>
-              </li>
-              <li>
-                Beyond Excellence Award
-                <small class='text-muted'>
-                  TCS
-                </small>
-              </li>
-            </ul>
-          </div>
-          <div style='padding-top:10px;border-bottom:3px solid black;'>
-            <h4 class='text-center'>Technical Skills</h4>
-              <ul class='text-left'>
-                <li>
-                  Ruby on Rails
-                </li>
-                <li>
-                  MySQL
-                </li>
-                <li>
-                  Redis
-                </li>
-                <li>
-                  RSpec
-                </li>
-                <li>
-                  Capybara
-                </li>
-                <li>
-                  GIT
-                </li>
-                <li>
-                  Unix
-                </li>
-                <li>
-                  VIM
-                </li>
-                <li>
-                  HTML
-                </li>
-                <li>
-                  CSS
-                </li>
-                <li>
-                  JavaScript
-                </li>
-              </ul>
+            <h4 class='text-center'>Technologies</h4>
+            <table class="table table-striped">
+              <tbody>
+                <tr>
+                  <td>Ruby on Rails</td>
+                  <td>Java</td>
+                </tr>
+                <tr>
+                  <td>MySQL</td>
+                  <td>Redis</td>
+                </tr>
+                <tr>
+                  <td>RSpec</td>
+                  <td>Capybara</td>
+                </tr>
+                <tr>
+                  <td>Git</td>
+                  <td>Unix</td>
+                </tr>
+                <tr>
+                  <td>VIM</td>
+                  <td>HTML</td>
+                </tr>
+                <tr>
+                  <td>CSS</td>
+                  <td>JavaScript</td>
+                </tr>
+              </tbody>
+            </table>
           </div>
           <div style='padding-top:10px;'>
-            <h4 class='text-center'>Hobbies</h4>
-            <ul class='text-left'>
-              <li>
-                Listening to Music (Hard Rock, Progressive Rock, Indie, Alternative Rock, Metal)
-              </li>
-              <li>
-                Playing Squash, Badminton, Pool and Snooker
-              </li>
-              <li>
-                Swimming
-              </li>
-              <li>
-                Cooking
-              </li>
-              <li>
-                Reading Non-Fiction Books
-              </li>
-            </ul>
+            <h4 class='text-center'>Education</h4>
+            <table class="table table-striped">
+              <tbody>
+                <tr>
+                  <td>B.E(Chemical)<br/>2008-12</td>
+                  <td>Siddaganga Institite of Technology<br/>Tumkur</td>
+                </tr>
+                <tr>
+                  <td>ISC<br/>2008</td>
+                  <td>Loyola School<br/>Jamshedpur</td>
+                </tr>
+                <tr>
+                  <td>ICSE<br/>2006</td>
+                  <td>Loyola School<br/>Jamshedpur</td>
+                </tr>
+              </tbody>
+            </table> 
           </div>
         </div>
       </div>
